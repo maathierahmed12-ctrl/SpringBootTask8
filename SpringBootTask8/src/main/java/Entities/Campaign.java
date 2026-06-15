@@ -5,14 +5,14 @@ public class Campaign {
     private String campaignId;
     private String CampaignName;
     private String platform;
-    private double budget;
+    private double Budget;
 
     public Campaign(String campaignId,String CampaignName,String platform,double budget){
 
         this.campaignId=campaignId;
         this.CampaignName=CampaignName;
         this.platform=platform;
-        this.budget=budget;
+        this.Budget=budget;
 
     }
     public String getCampaignId(){
@@ -36,10 +36,10 @@ public class Campaign {
     }
 
     public double getBudget(){
-        return budget;
+        return Budget;
     }
     public void setBudget(){
-        this.budget=budget;
+        this.Budget=Budget;
     }
 }
 
